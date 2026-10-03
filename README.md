@@ -1,5 +1,5 @@
 # Analyseur d'harmoniques vocales
-
+# Grok Build - 03.10.2026
 Programme Python qui décompose un son tenu (voix chantée, piano, accord) en fondamentales et en harmoniques, par transformée de Fourier rapide (FFT).
 
 La version ici est la **v2.1 corrigée**. Un partiel d'octave plus fort que la fondamentale — cas typique du piano — n'est plus annoncé comme la note. Le détail est dans [BUG_ANALYSIS.md](BUG_ANALYSIS.md). Le fonctionnement de la détection multi-fondamentales est dans [MULTIPITCH_GUIDE_FR.md](MULTIPITCH_GUIDE_FR.md).
